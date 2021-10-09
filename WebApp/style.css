@@ -25,7 +25,7 @@ h1
     padding-left: 15%;
 }
 .nav {
-    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.281);
     color:#ffffff;
     z-index: 2;
 }
