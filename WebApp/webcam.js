@@ -1,5 +1,3 @@
-
-
 class Webcam {
   /**
    * @param {HTMLVideoElement} webcamElement A HTMLVideoElement representing the
@@ -8,11 +6,6 @@ class Webcam {
   constructor(webcamElement) {
     this.webcamElement = webcamElement;
   }
-
-  /**
-   * Captures a frame from the webcam and normalizes it between -1 and 1.
-   * Returns a batched image (1-element batch) of shape [1, w, h, c].
-   */
 
 
   capture() {
